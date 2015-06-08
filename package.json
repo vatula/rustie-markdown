@@ -1,0 +1,48 @@
+{
+  "name": "rustie-markdown",
+  "version": "0.0.1",
+  "description": "Rustie markdown plugin",
+  "main": "lib/javascript/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatula/rustie-markdown.git"
+  },
+  "keywords": [
+    "rustie",
+    "markdown",
+    "vatula"
+  ],
+  "author": "Bogdan Vatulya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vatula/rustie-markdown/issues"
+  },
+  "homepage": "https://github.com/vatula/rustie-markdown#readme",
+  "devDependencies": {
+    "rustie": "https://github.com/vatula/rustie.git",
+    "babel-core": "^5.4.7",
+    "babel-loader": "^5.1.4",
+    "babel-runtime": "^5.4.7",
+    "chai": "^2.3.0",
+    "chalk": "^1.0.0",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^1.2.5",
+    "gulp-mocha": "^2.1.0",
+    "gulp-mustache": "^1.0.2",
+    "gulp-webpack": "^1.5.0",
+    "js-yaml": "^3.3.1",
+    "marked": "^0.3.3",
+    "mkdirp": "^0.5.1",
+    "node-libs-browser": "^0.5.2",
+    "promisify-node": "^0.1.5",
+    "recursive-readdir": "^1.2.1",
+    "vinyl-paths": "^1.0.0",
+    "webpack": "^1.9.10"
+  }
+}
